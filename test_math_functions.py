@@ -16,11 +16,21 @@ def test_calc_multiply():
     assert output == 8
 
 
-def test_calc_multiply_fail():
-    output = multiply_numbers(2, 4)
-    assert output == 16
+# def test_calc_multiply_fail():
+#     output = multiply_numbers(2, 4)
+#     assert output == 16
 
 
 def test_calc_divide():
     output = divide_numbers(10, 2)
     assert output == 5
+
+
+def test_calc_absolute_value():
+    output = absolute_value(4)
+    assert output == 4
+
+
+def test_calc_squared():
+    output = squared(2)
+    assert output == 4
